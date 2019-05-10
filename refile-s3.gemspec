@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'refile/s3/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "refile-s3"
+  spec.name          = "leifcr-refile-s3"
   spec.version       = Refile::S3::VERSION
   spec.authors       = ["Jonas Nicklas"]
   spec.email         = ["jonas.nicklas@gmail.com"]
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.1.0"
 
-  spec.add_dependency "refile"
+  spec.add_dependency "leifcr-refile"
   spec.add_dependency "aws-sdk-s3", "~> 1.36"
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
